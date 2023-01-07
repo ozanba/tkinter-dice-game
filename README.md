@@ -9,6 +9,7 @@ dice game against computer and score board
 - Dice's face photo
 - if it is won it is green
 - else it red color
+- Countdown
 
 ## Screenshots
 
