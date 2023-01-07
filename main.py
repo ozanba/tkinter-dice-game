@@ -77,7 +77,7 @@ def num2():
     image_pc = Label(image=num2_img)
     image_pc.grid(row=1, column=1)
     #num 3
-    image_pc.after(9000, num1)
+    image_pc.after(1000, num1)
 
 def num1():
     global image_pc
@@ -86,7 +86,7 @@ def num1():
     image_pc = Label(image=num1_img)
     image_pc.grid(row=1, column=1)
     #dice
-    image_pc.after(9000, pcLast)
+    image_pc.after(1000, pcLast)
     
     
     
@@ -151,7 +151,7 @@ def button_play():
     image_pc.grid(row=1, column=1)
     
     #num2
-    image_pc.after(9000, num2)
+    image_pc.after(1000, num2)
     
     
        
