@@ -124,7 +124,9 @@ def pcLast():
     #write score
     score_won.grid(row=3, column=1, columnspan=1, sticky='e')
     score_lost.grid(row=3, column=2, columnspan=1, sticky='w',)
-   
+    #show button
+    button_play.grid(row=2, column=0)
+    
  
 
 
@@ -150,8 +152,13 @@ def button_play():
     image_pc = Label(image=num3_img)
     image_pc.grid(row=1, column=1)
     
+    #hide button
+    button_play.grid_forget()
+    
     #num2
     image_pc.after(1000, num2)
+    
+    button_play
     
     
        
